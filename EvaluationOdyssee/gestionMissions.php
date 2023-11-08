@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestion des missions</title>
+    <link rel="stylesheet" href="gestionAstro.css">
+</head>
+<body>
+    <div class="container">
+
+        <div class="menu">
+            <h1>Dashbord</h1>
+            <ul>
+                <a href="#"><img src="img/user.svg" alt="">Suivi des missions</a>
+                <a href="#"><img src="img/user.svg" alt="">Gestion des missions</a>
+                <a href="#"><img src="img/user.svg" alt="">Gestions des Astronautes</a>
+            </ul>
+        </div>
+
+        <div class="head-main">
+            
+            <div class="header">
+                <h2><a href="#">Home</a></h2>
+                <img src="img/alarm.svg" class="icons" id="alarm" alt="">
+                <img src="/img/user.svg" class="icons" id="user" alt="">
+            </div>
+
+            <div class="main">
+                <div class="tableau">
+                    <table>
+                        <h2>Gestion des missions</h2>
+                        &nbsp;
+                        <a href="ajout.php" class="ajout">Ajouter une mission</a>
+                        <br>
+                            <tr>
+                                <th>Id_Missions</th>
+                                <th>Nom</th>
+                                <th>Id_Date</th>
+                                <th>Status de la mission</th>
+                                <th>Modifier</th>
+                                <th>Supprimer</th>
+                                
+                            </tr>
+                            <tr>
+                                <td>M1</td>
+                                <td>Visite du planète Mars</td>
+                                <td>17-08-23</td>
+                                <td>En cours de preparation</td>
+                                <td><a href="update.php" class="icon"><img src="img/pen.png" alt="" style="width: 20px; height: 20px;"></a></td>
+                                <td><a href="delete.php" class="icon"><img src="img/trash.png" alt="" style="width: 20px; height: 20px;"></a></td>
+                            </tr>
+                            <tr>
+                                <td>M1</td>
+                                <td>Visite du planète Mars</td>
+                                <td>17-08-23</td>
+                                <td>En cours de preparation</td>
+                                <td><a href="update.php" class="icon"><img src="img/pen.png" alt="" style="width: 20px; height: 20px;"></a></td>
+                                <td><a href="delete.php" class="icon"><img src="img/trash.png" alt="" style="width: 20px; height: 20px;"></a></td>
+                            </tr>
+                            <tr>
+                                <td>M1</td>
+                                <td>Visite du planète Mars</td>
+                                <td>17-08-23</td>
+                                <td>En cours de preparation</td>
+                                <td><a href="update.php" class="icon"><img src="img/pen.png" alt="" style="width: 20px; height: 20px;"></a></td>
+                                <td><a href="delete.php" class="icon"><img src="img/trash.png" alt="" style="width: 20px; height: 20px;"></a></td>
+                            </tr>
+                            <tr>
+                                <td>M1</td>
+                                <td>Visite du planète Mars</td>
+                                <td>17-08-23</td>
+                                <td>En cours de preparation</td>
+                                <td><a href="update.php" class="icon"><img src="img/pen.png" alt="" style="width: 20px; height: 20px;"></a></td>
+                                <td><a href="delete.php" class="icon"><img src="img/trash.png" alt="" style="width: 20px; height: 20px;"></a></td>
+                            </tr>
+                            <tr>
+                                <td>M1</td>
+                                <td>Visite du planète Mars</td>
+                                <td>17-08-23</td>
+                                <td>En cours de preparation</td>
+                                <td><a href="update.php" class="icon"><img src="img/pen.png" alt="" style="width: 20px; height: 20px;"></a></td>
+                                <td><a href="delete.php" class="icon"><img src="img/trash.png" alt="" style="width: 20px; height: 20px;"></a></td>
+                            </tr>
+                    </table> 
+                </div>
+                <div class="footer"></div>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>

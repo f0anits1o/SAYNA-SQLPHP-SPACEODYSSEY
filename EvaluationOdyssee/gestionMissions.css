@@ -1,0 +1,140 @@
+*, ::before, ::after{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+/* Section container: menu et head-main */
+
+.container{
+    display: grid;
+    grid-template-rows: 100vh;
+    grid-template-columns: 20% 80%;
+}
+
+/*Section menu: titre et liste*/
+
+.menu{
+    background: #343a40;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    color: #fff;
+}
+
+.menu ul {
+    padding-left: 0;
+}
+
+.menu ul a{
+    align-self: center;
+    padding-bottom: 2vh;
+    padding-top: 2vh;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    color: #fff; 
+}
+
+.menu ul a:hover{
+    background: #ddd;
+    color: #343a40;
+    opacity: 0.5;
+}
+.menu ul img{
+    width: 4vw;
+    height: 4vh;
+    border-radius: 70%;
+}
+/*Section head-main: header et main*/
+
+.head-main{
+    display: grid;
+    grid-template-rows: 10vh 90vh;
+    grid-template-columns: 100%;
+}
+
+.head-main .header{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+
+    background: #ddd;
+    margin-bottom: 1.5vh;
+}
+.head-main .header  h2{
+    margin-right: auto;
+    margin-left: 1.5vh;
+}
+
+.head-main .header  h2 a{
+  text-decoration: none;
+  color: #343a40;
+}
+
+.head-main .header .icons {
+    width: 3vw;
+    height: 3vh;
+    cursor: pointer;
+}
+
+/*Tableau astronautes*/
+
+.heag.main .main .tableau table {
+    display: flex;
+    background: #5ad4d4;
+    color: #fff;
+    margin-left: 2vh;
+    border-collapse: collapse;
+}
+
+.head-main .main .tableau  td .icon{
+    width:20px;
+    height: 20px;
+    text-align: center;
+}
+.head-main .main .tableau h2{
+    text-align: left;
+    color: #062d55;
+    font-size: 30px;
+    padding-left: 2vh;
+}
+.head-main .main .tableau .ajout{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.head-main .main .tableau  th {
+    padding: 25px;
+    text-align: center;
+    font-family: Tahoma, Verdana, sans-serif;
+    font-size: 26px;
+}
+
+.head-main .main .tableau  td{
+    padding: 15px;
+    font-size: 20px;
+    color: #333;
+    text-align: center;
+}
+.head-main .main .tableau  td .icon{
+    padding: 15px;
+    font-size: 20px;
+    color: #333;
+   text-align: center;
+}
+
+.head-main .main .tableau :nth-child(even){
+    background: #fff;
+}
+
+.head-main .main .tableau tfoot{
+    background:rgba(113, 99, 186, 255);
+    font-weight: bold;
+    color: #fff;
+}
+
+.head-main .main .tableau tfoot td{
+    padding: 15px;
+}
